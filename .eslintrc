@@ -1,0 +1,19 @@
+ {
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "prettier/prettier": ["error", { "endOfLine":"auto" }], // устраняет ошибку: [eslint] Delete 'cr' [prettier/prettier]
+      "no-debugger": "off",
+      "no-console":"off"
+    }
+}
